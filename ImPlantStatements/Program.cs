@@ -16,7 +16,7 @@ namespace Staements
                 {
                     float totalAmount = Calculate.CalculateAmount(dataModel);
                     Console.WriteLine(totalAmount.ToString());
-                }
+                }   //similar extension for other file read , implementing interface.
                 else
                 {
                     Console.WriteLine("No data provided by the user through Json");
